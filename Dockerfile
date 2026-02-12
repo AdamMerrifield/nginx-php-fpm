@@ -2,7 +2,6 @@ FROM debian:bookworm-slim
 
 LABEL maintainer="Colin Wilson colin@wyveo.com"
 
-
 # Let the container know that there is no tty
 ENV DEBIAN_FRONTEND noninteractive
 ENV NGINX_VERSION 1.27.5-1~bookworm
